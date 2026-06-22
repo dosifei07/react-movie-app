@@ -99,7 +99,7 @@ const MovieDetails = () => {
       {similarMovies.length > 0 && (
         <div style={{ marginTop: '50px', paddingBottom: '40px' }}>
           <h2 style={{ fontSize: '26px', marginBottom: '20px', borderBottom: '1px solid #333', paddingBottom: '10px' }}>
-            Similar fils
+            Similar films
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '20px' }}>
             {similarMovies.map((movie) => (
